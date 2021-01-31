@@ -1,0 +1,36 @@
+#ClockMain{
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    
+    background-image: url("clock.png");
+    background-size: 100%;
+    position: relative;
+}
+#hour{
+    position: absolute;
+    top: 32%;
+    left: 26.5%;
+    height: 25%;
+    width: 1.2%;
+    background-color: black;
+    transform-origin: bottom;
+}
+#min{
+    position: absolute;
+    top: 23%;
+    left: 49.4%;
+    height: 27%;
+    width: 1%;
+    background-color: black;
+    transform-origin: bottom;
+}
+#sec{
+    position: absolute;
+    top: 14%;
+    left: 49.4%;
+    height: 37%;
+    width: 0.7%;
+    transform-origin: bottom;
+    background-color: black;
+}
